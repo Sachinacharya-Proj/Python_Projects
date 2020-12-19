@@ -5,7 +5,7 @@ from email.message import EmailMessage # To Format email handle more cleaningly
 
 usremail = os.environ.get('useremail')
 password = os.environ.get('userpass')
-to = "acharyaraj71@gmail.com"
+to = "youremail@domain.com"
 
 msg = EmailMessage()
 msg['Subject'] = "My Crush"
